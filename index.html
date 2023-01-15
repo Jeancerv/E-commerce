@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comerce</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="container">
+
+        <section class="header">
+            <nav class="header__navbar flex">
+                <section class="navbar__menu flex-between">
+                    <section class="navbar__menu-home flex">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav_logo-icon"> <title>Academlo Logo</title> <g> <g> <!-- <path d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z"></path> -->
+                            <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z" stroke= #34B0BE> </path> </g> </g> </svg>
+                            <a href="#home"><p class="menu-home-store"> Tienda</p></a>
+                    </section>
+                    <section class="navbar__menu-option flex">
+                        <a href="#home"><p class="navbar__menu-option">Inicio</p></a>
+                        <a href="#productos"><p class="navbar__menu-option">productos</p></a>
+                    </section>
+                </section>
+
+                <section class="navbar__car">
+                    <section class="navbar__car-items flex">
+                        <section class="navbar__car-items-mode">
+                            <i class='bx bx-moon'></i>
+                        </section>
+                        <section class="navbar__car-items-bag">
+                            <i class='bx bx-shopping-bag'>
+                                <span class="cartAmount"></span>
+                            </i>
+                                
+                        </section>
+                    </section>
+                </section>
+            </nav>
+        </section>
+
+        <section class="body">
+
+            <section id="home" class="body__home">
+                <section id= "home" class="body__home-screen1">
+                    <section class="home__details flex">
+                        <section class="home__details-item">
+                            <section class="home__details-item-info flex">
+                                <h1 class="details-info-title">Nuevas Prendas <br/> COLECCION 2023</h1>
+                                <p class="details-info-paragraph">Última llegada de la nueva sudadera Hanes Midweight Crewneck importada de la serie 2023, con un diseño moderno.</p>
+                                <p class="details-info-price"> $14.00</p>
+                            </section>
+                            
+                            <section class="home__details-item-buttons flex">
+                                <button class="discover">Descubrir</button>
+                                <button class="add-car">AÑADIR AL CARRO</button>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="home__productos">
+                        <img src="./img/featured1.png" alt="Collections 2023">
+                    </section>
+                </section>
+                
+            </section>
+            
+            <section id="productos" class="body__productos flex">
+                <section class="product__search">
+                    <section class="product__search-categories" data-filter= "all">
+                        <h3 class="categories-name">Ver todo</h3>
+                        <p class="categories-details">Ver todos los productos</p>
+                    </section>
+                    <section class="product__search-categories" data-filter= ".filter-0">
+                        <h3 class="categories-name">Hoodies</h3>
+                        <p class="categories-details">3 productos</p>
+                    </section>
+                    <section class="product__search-categories" data-filter= ".filter-1">
+                        <h3 class="categories-name">Hoodies Rocky</h3>
+                        <p class="categories-details">4 productos</p>
+                    </section>
+                    <section class="product__search-categories" data-filter= ".filter-2">
+                        <h3 class="categories-name">Sweatshirts</h3>
+                        <p class="categories-details">4 productos</p>
+                    </section>
+                </section>
+
+                <section class="productos__detalles"></section>       
+                <section class="contentCart">
+                    <section class="contentCart__close">
+                        <span><i class='bx bx-x'></i></span>
+                    </section>
+                    <section class="cartProduct"></section>
+                    <section class="cartTotal"></section>
+                </section>
+            </section>
+        </section>
+
+        <footer class="footer">
+            <section class="footer__information">
+                <h3 class="footer__information-title">Informacion</h3>
+                <br>
+                <p class="footer__information-info">Jean Cervantes - Barranquilla - Colombia</p>
+                
+            </section>
+            <section class="footer__information">
+                <h3 class="footer__information-title">Sobre mí</h3>
+                <br>
+                <p class="footer__information-info">Centro de soporte</p>
+                <p class="footer__information-info">Soporte al cliente</p>
+                <p class="footer__information-info">Sobre mí</p>
+                <p class="footer__information-info">Copyright</p>
+            </section>
+            <section class="footer__information">
+                <h3 class="footer__information-title">Producto</h3>
+                <br>
+                <p class="footer__information-info">Hoodies</p>
+                <p class="footer__information-info">Hoodies Rocky</p>
+                <p class="footer__information-info">Sweatshirts</p>
+            </section>
+            <section class="footer__information">
+                    <h3 class="footer__information-title">Social</h3>
+                    <br>
+                <section class="footer__information-social flex">
+                    <p class="footer__information-info"><a href="http://facebook.com" target="_blank"><i class='bx bxl-facebook-circle'></i></a></p>
+                    <p class="footer__information-info"><a href="http://instagram.com" target="_blank"><i class='bx bxl-instagram-alt' ></i></a></p>
+                    <p class="footer__information-info"><a href="http://twitter.com" target="_blank"><i class='bx bxl-twitter' ></i></a></p> 
+                </section>
+            </section>
+        </footer>
+        
+        <section class="footer__bottom">
+            <hr>
+            <p> Brayan munoz, agradecimientos</p>
+        </section>
+
+    </section>
+
+    <script src="./src/js/mixitup.min.js"></script>
+    <script src="./main/main.js"></script>
+</body>
+</html>
